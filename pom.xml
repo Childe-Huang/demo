@@ -12,12 +12,15 @@
         <module>part1</module>
         <module>common</module>
     </modules>
+    <properties>
+        <junit.junit.version>4.11</junit.junit.version>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>${junit.junit.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
