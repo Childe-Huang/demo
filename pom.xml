@@ -14,9 +14,23 @@
     </modules>
     <properties>
         <junit.junit.version>4.11</junit.junit.version>
+        <demo.version>1.0-SNAPSHOT</demo.version>
     </properties>
 
+    <dependencyManagement>
     <dependencies>
+        <!--
+        <dependency>
+            <groupId>com.hsb.multi-module</groupId>
+            <artifactId>common</artifactId>
+            <version>${demo.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.hsb.multi-module</groupId>
+            <artifactId>part1</artifactId>
+            <version>${demo.version}</version>
+        </dependency>
+        -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -24,5 +38,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    </dependencyManagement>
 
 </project>
